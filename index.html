@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Filter Fun<br>
+    
+      <canvas id="theCanvas">
+      </canvas>
+    </h1>
+    
+    <h2>Load Image :</h2>
+    <p id="a">
+      <input class="GFE" type="file" multiple="true" accept="image/*" id="fileInput" onchange="loadImage()">
+    </p>
+    <h2>Choose Filter :</h2>
+    <p id="b">
+      <input class="GFE" type="button" onclick="makeGray()" value="GrayScale">
+      <input class="GFE" type="button" value="Red" onclick="makeRed()">
+      <input class="GFE" type="button" value="Green" onclick="makeGreen()">
+      <input class="GFE" type="button" value="Blue" onclick="makeBlue()">
+      <input class="GFE" type="button" value="Rainbow" onclick="makeRainbow()">
+      <input class="GFE" type="button" value="Blur" onclick="makeBlur()">
+      <input class="GFE" type="button" value="Invert" onclick="makeInvert()">
+      <input class="GFE" type="button" value="Black Frame" onclick="doBlackFrame()">
+      <input class="GFE" type="button" value="WaveFrame" onclick="doWave()">
+      <input class="GFE" type="button" value="White Frame" onclick="doWhiteFrame()">
+      <input class="GFE" type="button" value="Red and Gray" onclick="doLine()">
+      <input class="GFE" type="button" value="Bright" onclick="makeBright()">
+      <input class="GFE" type="button" value="Purple" onclick="makePurple()">
+      <input class="GFE" type="button" value="Willow" onclick="makeWillow()">
+      <input class="GFE" type="button" value="Warm" onclick="makeWarm()">
+    
+    </p>
+    <h2>Reset Image :</h2>
+    <p id="b">
+      <input class="GFE" type="button" value="Reset Image" onclick="reset()">
+    </p>
+    <h2>Download Image :</h2>
+    <script src="main.js"></script>
+      <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+</script>
+    
+</body>
+</html>

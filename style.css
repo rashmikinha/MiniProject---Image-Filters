@@ -1,0 +1,67 @@
+body{
+    background-color:lightslategray;
+    border:dotted white;
+    
+  }
+  h1{
+    color:white;
+    text-align:center;
+    font-size:50px;
+    font-family:cursive;
+  }
+  input{
+    font-size:20px;
+    font-family:cursive;
+    color:white;
+    background-color:black;
+  }
+  canvas{
+    border:3px solid;
+    background-color:orange;
+    height:300px;
+    width:300px;
+  }
+  h2{
+    color:darkblue;
+    font-size:30px;
+    font-family:cursive;
+    text-align:center;
+  }
+  #a{
+    text-align:center
+  }
+  #b{
+    text-align:center
+  }
+  a {
+    display:block;
+    display-align:center;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 50em;
+    padding: .001em .5em;
+    text-decoration:none;
+    background-color:black;
+     font-size:30px;
+    font-family:cursive;
+    color:white;
+  }
+  .GFE:hover{
+    color:#111;
+    background:aqua;
+    box-shadow:0 0 100px yellow;
+  }
+  .ONE:hover{
+    color:#111;
+    background:lime;
+    box-shadow:0 0 100px white;
+  }
+  h3{
+    font-family:cursive;
+    color:darkblue;
+  }
+  
+  
+  
+  
+  
